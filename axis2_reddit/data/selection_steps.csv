@@ -1,0 +1,12 @@
+etape,n
+Posts collectés (avec doublons),12443
+Posts uniques,11992
+Corps du post disponible (ni supprimé ni vide),8995
+Hors contenu adulte et messages automatiques,8857
+Entre 30 et 1 500 mots,8427
+Textes identiques supprimés (cross-posts),8285
+Texte en anglais,8171
+"Pertinent : dépendance à l'IA, ou conseil demandé à l'IA (quotidien)",668
+Hors posts techniques (agents de code),651
+Hors résumés automatiques d'articles,643
+Quasi-doublons retirés (reprises du même message),633
