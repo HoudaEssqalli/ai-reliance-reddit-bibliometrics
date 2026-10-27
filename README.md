@@ -2,7 +2,7 @@
 
 Houda Es-sqalli · Computational Social Science (DAT602), taught by Prof. Aomar Ibourk · University Mohammed VI Polytechnic (UM6P), Rabat · October 2026
 
-This repository holds the code and the shareable data behind my midterm project. The question: why do people sometimes rely on AI too much when they make decisions, and sometimes not enough? The project looks at it from two sides: what researchers study (a bibliometric corpus), and what people say about their own use of AI (a Reddit corpus). All analyses were done in R. The full report and its short synthesis are in French, in [`report/`](report/).
+This repository holds the code and the shareable data behind my course project. The question: why do people sometimes rely on AI too much when they make decisions, and sometimes not enough? The project looks at it from two sides: what researchers study (a bibliometric corpus), and what people say about their own use of AI (a Reddit corpus). All analyses were done in R.
 
 ## Axis 1: what the research literature covers
 
@@ -34,7 +34,6 @@ axis2_reddit/
                       03 exploration, 04 topic models, 05 VADER and validation
   data/               post IDs, selection steps, precision sample, hand-coded sentiment
   figures/
-report/               full report and synthesis (French)
 ```
 
 The scripts were run from the original project folders, so the paths inside them are relative to those folders (for example `corpus/` for axis 2).
