@@ -26,17 +26,19 @@ Main results: AI subreddits talk about the tool and the tasks given to it (code,
 
 ```
 axis1_bibliometrics/
-  scripts/            prepare each base, summarise, export for biblioshiny, analyses
-  search_equation/    term tests and the precision sample (titles and judgments only)
-  figures/
+  scripts/            1_prepare_databases, 3_summarise_databases, 4_biblioshiny_file, 5_analyses
+  search_equation/    0_test_search_equation, term tests, block tests, context tests,
+                      precision sample (titles and judgments only)
+  figures/            thematic maps (whole corpus and three periods), trend topics
 axis2_reddit/
-  scripts/            01 collection, 02 cleaning and filter, 02b precision, 02c lemmatisation,
-                      03 exploration, 04 topic models, 05 VADER and validation
-  data/               post IDs, selection steps, precision sample, hand-coded sentiment
-  figures/
+  scripts/            01_collect_reddit, 02_clean_and_filter, 02b_precision_check, 02c_lemmatise,
+                      03_exploration, 04_topic_models, 05_vader_sentiment,
+                      plot_style and word_lists (shared by the analysis scripts)
+  data/               post IDs, selection steps, precision sample, hand coding (sentiment and post type)
+  figures/            word frequencies, dendrograms, choice of K, LDA, STM, BTM, VADER validation
 ```
 
-The scripts were run from the original project folders, so the paths inside them are relative to those folders (for example `corpus/` for axis 2).
+Paths inside the scripts are relative to the project folder of each axis (for example `corpus/` and `results/` for axis 2). Code, comments, figure labels and data files are in English. After the translation, both pipelines were run again (axis 2 from the frozen raw Reddit collection, axis 1 from the database exports) and reproduce every number reported above.
 
 ## What is not included, and why
 
